@@ -1,0 +1,25 @@
+
+{
+  "short_name": "iGemini",
+  "name": "iGemini AI Analysis",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/10574/10574751.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#10a37f",
+  "background_color": "#ffffff",
+  "share_target": {
+    "action": "/#/share/",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
